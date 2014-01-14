@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 	s.homepage		= 'https://github.com/anilanar/MessagesTableViewController'
 	s.license		= 'MIT License'
 	s.author        = { 'Jesse Squires' => 'jesse.squires.developer@gmail.com' }
-	s.source        = { :git => 'https://github.com/anilanar/MessagesTableViewController.git', branch: => 'private/lignum', :tag => s.version.to_s }
+	s.source        = { :git => 'https://github.com/anilanar/MessagesTableViewController.git', :branch => 'private/lignum', :tag => s.version.to_s }
 	s.platform		= :ios, '6.0'
 	s.source_files	= 'JSMessagesViewController/Classes/**/*'
 	s.resources		= 'JSMessagesViewController/Resources/**/**/*'
